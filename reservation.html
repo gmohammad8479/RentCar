@@ -1,0 +1,176 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Reservation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #000;
+            color: #0a137f;
+        }
+
+        .navbar {
+            width: 100%;
+            padding: 25px 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(6px);
+            z-index: 10;
+        }
+
+
+
+        .menu a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: #ddd;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: rgb(22, 8, 105);
+        }
+
+        .reservation-container {
+            padding: 160px 60px 60px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 45px;
+            font-weight: bold;
+            margin-bottom : 20px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: rgb(9, 9, 106);
+        }
+
+        .reservation-form {
+            display: flex;
+            flex-direction: column;
+            background: #0d0d0d;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #1a1a1a;
+        }
+
+        label {
+            margin-top: 12px;
+            color: #bfbfbf;
+        }
+
+        input, select {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #333;
+            background: #111;
+            color: #bfbfbf;
+            border-radius: 6px;
+        }
+
+        input:focus, select:focus {
+            border-color: rgb(27, 13, 132);
+        }
+
+        .extras label {
+            display: block;
+            margin-top: 8px;
+        }
+
+        .btn {
+            margin-top: 25px;
+            padding: 15px;
+            background: rgb(9, 7, 128);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+            
+        }
+
+        .btn:hover {
+            background: rgb(9, 39, 137);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+    
+
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="vehicles.html">Vehicles</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="reservation-container">
+
+        <h2>Car Reservation</h2>
+
+
+        <form class="reservation-form" action="reservation.html" method="post">
+            
+            <h3>Pick-up</h3>
+            <label>Pick-up Date</label>
+            <input type="date" required="">
+
+            <label>Pick-up Time</label>
+            <input type="time" required="">
+
+            <label>Pick-up Location</label>
+            <input type="text" placeholder="City / Agency" required="">
+
+            <h3>Return</h3>
+            <label>Return Date</label>
+            <input type="date" required="">
+
+            <label>Return Time</label>
+            <input type="time" required="">
+
+            <label>Return Location</label>
+            <input type="text" placeholder="City / Agency" required="">
+
+            <h3>Extras</h3>
+            <div class="extras">
+                <label><input type="checkbox"> GPS</label>
+                <label><input type="checkbox"> Baby Seat</label>
+                <label><input type="checkbox"> Extra Insurance</label>
+            </div>
+
+            <h3>Your Information</h3>
+            <input type="text" placeholder="Full Name" required="">
+            <input type="tel" placeholder="Phone Number" required="">
+            <input type="email" placeholder="Email" required="">
+
+            <button type="submit" class="btn">Confirm Reservation</button>
+
+        </form>
+    </div>
+
+
+
+</body></html>

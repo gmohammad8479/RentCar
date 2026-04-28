@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-RentCar</title>
+   <style>
+
+* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background:black;
+    color: grey;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    z-index: 10;
+}
+
+
+
+.menu a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #b9b9c1;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: rgb(28, 38, 148);
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 80px;
+  max-width: 500px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.hero-text span {
+  color: rgb(32, 38, 154);
+}
+
+.features {
+  list-style: none;
+  margin: 25px 0;
+}
+
+.features li {
+  margin-bottom: 8px;
+  color: #bbb;
+}
+
+.hero-buttons button {
+  margin-right: 15px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.primary {
+  background: rgb(5, 12, 108);
+  color: black;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+}
+
+
+.car img {
+    width: auto;
+    height: auto;
+    filter: brightness(85%);
+    margin-right: 200px;
+}
+
+
+</style>
+</head>
+<body>
+
+    <header class="navbar">
+      
+
+        <nav class="menu"> <a href="index.html">Home</a> 
+            <a href="vehicles.html">Vehicles</a> 
+            <a href="reservation.html">Reservation</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a> </nav>
+    </header>
+
+    
+<section class="hero">
+  <div class="hero-text">
+    <p class="subtitle">Drive Excellence</p>
+
+    <h1>
+      RENT A CAR<br>
+      <span>WITH CONFIDENCE</span>
+    </h1>
+
+    <ul class="features">
+      <li>✔ Excellent prices</li>
+      <li>✔ Great service</li>
+      <li>✔ A diverse fleet</li>
+    </ul>
+
+    <div class="hero-buttons">
+    <a href="reservation.html"><button class="primary">Reserve Now</button></a>
+    <a href="vehicles.html"><button class="secondary">View Cars</button></a>
+</div>
+
+  </div>
+
+        <div class="car">
+            <img src="C:\Users\hp\Desktop\RentCar\image\Logo.jpeg"  alt="car"  >
+        </div>
+    </section>
+
+</body>
+</html>

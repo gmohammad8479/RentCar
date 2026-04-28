@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicles - RentCar</title>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Arial',sans-serif; }
+body { background:#000; color:#ddd; }
+
+/* NAVBAR */
+.navbar {
+  width:100%; padding:25px 60px; display:flex; justify-content:space-between; align-items:center;
+  position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); backdrop-filter:blur(6px); z-index:100;
+}
+
+.menu a { margin-left:40px; text-decoration:none; color:#ddd; font-size:16px; transition:0.3s; }
+.menu a:hover { color:rgb(11, 8, 101); }
+
+/* PAGE TITLE */
+.title-section { padding-top:140px; text-align:center; margin-bottom:20px; }
+.title-section h1 { font-size:42px; color:#08086b; }
+
+/* VEHICLE GRID */
+.cars-container {
+  padding:20px 60px 60px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:35px;
+}
+.car-box {
+  background:#111; border-radius:10px; overflow:hidden; box-shadow:0 0 10px #5c010155; transition:0.3s;
+}
+.car-box:hover { transform:translateY(-8px); box-shadow:0 0 15px rgb(26, 43, 194); }
+.car-box img { width:100%; height:300px; object-fit:cover; }
+.car-info { padding:20px; }
+.car-info h2 { font-size:22px; margin-bottom:8px; color:#fff; }
+.car-info p { margin-bottom:10px; font-size:15px; color:#bbb; }
+.price { color:rgb(154,32,32); font-size:18px; font-weight:bold; }
+.btn-reserve {
+  display:inline-block; margin-top:12px; padding:10px 18px; background:rgb(6, 10, 123); color:white;
+  text-decoration:none; border-radius:6px; transition:0.3s; font-weight:bold;
+}
+.btn-reserve:hover { background:#b22c2c; }
+
+</style>
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <nav class="menu">
+    <a href="index.html">Home</a>
+    <a href="vehicles.html">Vehicles</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="title-section">
+  <h1>Available Vehicles</h1>
+</section>
+<section class="cars-container">
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Hyundai Tucson.jpeg" alt="Car"><div class="car-info"><h2>Hyundai Tucson</h2><p>Automatic – Diesel – 2023</p><p class="price">350 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Dacia Duster.jpeg" alt="Car"><div class="car-info"><h2>Dacia Duster</h2><p>Manual – Diesel – 2022</p><p class="price">250 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Mercedes C-Class.jpeg" alt="Car"><div class="car-info"><h2>Mercedes C-Class</h2><p>Automatic – Gasoline – 2021</p><p class="price">700 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Renault Clio 5.jpeg" alt="Car"><div class="car-info"><h2>Renault Clio 5</h2><p>Manual – Gasoline – 2024</p><p class="price">200 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Audi Q3.jpeg" alt="Car"><div class="car-info"><h2>Audi Q3</h2><p>Automatic – Diesel – 2023</p><p class="price">450 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\BMW X5.jpeg" alt="Car"><div class="car-info"><h2>BMW X5</h2><p>Automatic – Diesel – 2024</p><p class="price">900 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Ford Mustang.jpeg" alt="Car"><div class="car-info"><h2>Ford Mustang</h2><p>Automatic – Gasoline – 2022</p><p class="price">800 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Toyota Corolla.jpeg" alt="Car"><div class="car-info"><h2>Toyota Corolla</h2><p>Manual – Gasoline – 2023</p><p class="price">300 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Jeep Wrangler.jpeg" alt="Car"><div class="car-info"><h2>Jeep Wrangler</h2><p>Automatic – Diesel – 2023</p><p class="price">750 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Volkswagen Golf.jpeg" alt="Car"><div class="car-info"><h2>Volkswagen Golf</h2><p>Manual – Gasoline – 2022</p><p class="price">280 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Honda Civic.jpeg" alt="Car"><div class="car-info"><h2>Honda Civic</h2><p>Automatic – Gasoline – 2023</p><p class="price">320 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Kia Sportage.jpeg" alt="Car"><div class="car-info"><h2>Kia Sportage</h2><p>Automatic – Diesel – 2024</p><p class="price">400 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Mini Cooper.jpeg" alt="Car"><div class="car-info"><h2>Mini Cooper</h2><p>Automatic – Gasoline – 2023</p><p class="price">380 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Mercedes GLA.jpeg" alt="Car"><div class="car-info"><h2>Mercedes GLA</h2><p>Automatic – Diesel – 2022</p><p class="price">650 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Peugeot 308.jpeg" alt="Car"><div class="car-info"><h2>Peugeot 308</h2><p>Automatic – Diesel – 2023</p><p class="price">400 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Opel Astra.jpeg" alt="Car"><div class="car-info"><h2>Opel Astra</h2><p>Manual – Gasoline – 2022</p><p class="price">270 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Ford Explorer.jpeg" alt="Car"><div class="car-info"><h2>Ford Explorer</h2><p>Automatic – Diesel – 2023</p><p class="price">750 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Toyota RAV4.jpeg" alt="Car"><div class="car-info"><h2>Toyota RAV4</h2><p>Automatic – Gasoline – 2023</p><p class="price">500 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Nissan Qashqai.jpeg" alt="Car"><div class="car-info"><h2>Nissan Qashqai</h2><p>Automatic – Diesel – 2022</p><p class="price">450 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Hyundai Santa Fe.jpeg" alt="Car"><div class="car-info"><h2>Hyundai Santa Fe</h2><p>Automatic – Diesel – 2023</p><p class="price">600 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+  <div class="car-box"><img src="C:\Users\hp\Desktop\RentCar\image\Chevrolet Camaro.jpeg" alt="Car"><div class="car-info"><h2>Chevrolet Camaro</h2><p>Automatic – Gasoline – 2023</p><p class="price">850 DH / day</p><a href="reservation de web site .html" class="btn-reserve">Reserve</a></div></div>
+
+</section>
+
+</body>
+</html>
