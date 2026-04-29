@@ -1,3 +1,45 @@
-RentCar is a modern car rental website designed to provide users with a smooth and intuitive booking experience. The website is built using approximately 83.5% HTML for structuring the content, 14.2% CSS for creating a clean, responsive, and visually appealing design, and around 2.3% JavaScript to enhance interactivity and user experience.
-The platform offers a wide range of vehicles suitable for different needs, whether for travel, business, or daily use. Users can easy browse available cars, view details, and make reservations through a simple and user-friendly interface.
-The website features a responsive design that adapts to all devices, ensuring accessibility on both desktop and mobile. With clear navigation, modern layout, and efficient reservation system, RentCar delivers a reliable and professional car rental service
+# 🚗 Car Rental Website (RentCar)
+
+#  Description
+RentCar is a modern and responsive car rental website developed using HTML, CSS, and JavaScript.  
+It allows users to browse available vehicles, check details, and make online reservations easily.
+
+
+##  Project Objective
+The main goal of this project is to:
+- Create a complete car rental website
+- Display available cars with details and prices
+- Provide an online reservation system
+- Show company information and contact form
+- Practice front-end web development skills
+
+
+##  Technologies Used
+- HTML5 → Structure of the website  
+- CSS3 → Styling, layout, and responsive design  
+- JavaScript → Form validation and basic interactions  
+
+
+## 📄 Website Pages
+- 🏠 Home Page → Introduction and main navigation  
+- 🚘 Vehicles Page → List of available cars with details  
+- 📝 Reservation Page → Booking form for users  
+- ℹ️ About Page → Information about the company  
+- 📞 Contact Page → Contact details and message form  
+
+
+## 🎨 Features
+- Modern dark UI design  
+- Fully responsive (mobile & desktop)  
+- Car listing with images and prices  
+- Interactive reservation form  
+- Contact form with validation  
+- Easy navigation between pages  
+
+
+
+##  How to Run the Project
+1. Download or clone the repository  
+2. Open the project folder  
+3. Run `index.html` in any browser  
+4. Navigate through pages using the menu
